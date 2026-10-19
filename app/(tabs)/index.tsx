@@ -80,7 +80,6 @@ export default function Index() {
         keyboardType="numeric"
       />
 
-      {/* Multiline Text Area */}
       <Text style={styles.label}>Short Bio</Text>
       <TextInput
         style={[styles.input, styles.textArea]}
@@ -133,7 +132,6 @@ export default function Index() {
         </Picker>
       </View>
 
-      {/* Slider */}
       <Text style={styles.label}>Rating: {rating} / 15</Text>
       <Slider
         minimumValue={0}
@@ -145,7 +143,6 @@ export default function Index() {
         thumbTintColor="#2e7d32"
       />
 
-      {/* Date Picker */}
       <Text style={styles.label}>Date: {date.toDateString()}</Text>
       <DateTimePicker
         value={date}
